@@ -8,7 +8,7 @@ function factorial(n){
     return n * factorial(n-1)
 }
 
-console.log(factorial(-2))
+console.log('factorial -2: '+ factorial(-2))
 
 
 function countLetter(str){
@@ -24,7 +24,7 @@ function countLetter(str){
     return output;
 }
 
-console.log(countLetter('apple'))
+console.log('countLetter apple: '+ countLetter('apple'))
 
 function uniqueArr(arr1, arr2){
     let output = []
@@ -37,7 +37,7 @@ function uniqueArr(arr1, arr2){
     output = [...distinct1, ...distinct2 ]
     return output
 }
-console.log(uniqueArr([1, 2, 3], [2, 3, 4]))
+console.log('uniqueArr: ' + uniqueArr([1, 2, 3], [2, 3, 4]))
 
 
 function uniqueArr2(arr1, arr2){
@@ -48,7 +48,7 @@ function uniqueArr2(arr1, arr2){
     output = similar
     return output;
 }
-console.log(uniqueArr2([1, 2, 3], [2, 3, 4]))
+console.log('uniqueArr2: ' + uniqueArr2([1, 2, 3], [2, 3, 4]))
 
 
 function ch(arr1, arr2){
@@ -62,7 +62,7 @@ function ch(arr1, arr2){
     })
     return output;
 }
-console.log(ch([1, 2, 2, 2, 3], [2, 2, 3, 4]))
+console.log('challenge part 2: '+ ch([1, 2, 2, 2, 3], [2, 2, 3, 4]))
 
 function ch2(arr1, arr2){
     let tempArr1 = arr1
@@ -89,4 +89,4 @@ function ch2(arr1, arr2){
     output = [...distinct1, ...distinct2 ]
     return output;
 }
-console.log(ch2([1, 2, 2, 2, 3], [2, 2, 3, 4]))
+console.log('challenge 3: '+ch2([1, 2, 2, 2, 3], [2, 2, 3, 4]))
